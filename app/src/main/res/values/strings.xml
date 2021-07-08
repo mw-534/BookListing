@@ -1,0 +1,22 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">BookListing</string>
+
+    <!-- Caption for the Book title EditView.
+    Displayed in front of the edit box. [CHAR LIMIT=20] -->
+    <string name="book_title">Title:</string>
+
+    <!-- Caption used for the search button. [CHAR LIMIT=20] -->
+    <string name="btn_search">search</string>
+
+    <!-- Shown as the empty state instead of the list if no
+    books were found. [CHAR LIMIT=NONE] -->
+    <string name="no_books_found">No books found.</string>
+
+    <!-- Shown as the empty state instead of the list if no
+    network connection was found. [CHAR LIMIT=NONE] -->
+    <string name="no_network_connection">No network connection available.</string>
+
+    <!-- Displayed as caption for pageCount. It will be shown in the format "pages: 1000"
+     where "1000" is the page_count. [CHAR LIMIT=10] -->
+    <string name="page_count">pages: <xliff:g id="page_count" example="1000">%s</xliff:g> </string>
+</resources>
